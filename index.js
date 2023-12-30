@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 })
 
 app.get("/home", (req, res) => {
-    res.sendFile("Home Page");
+    return "Home Page";
 })
 
 app.listen(3000, function () {
